@@ -63,6 +63,7 @@ async def on_ready():
             - https://github.com/DraKenCodeZ/spy-sb-v6
             
     ・Logged in as {client.user}
+    ・Latency: {round(client.latency * 1000)}ms
     ・Type {SpyEncrypt1}help to get list of all the commands.
     ・Created by Team SPY™
     ・https://discord.gg/gamer""")    

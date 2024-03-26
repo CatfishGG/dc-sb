@@ -375,8 +375,6 @@ Deleted at - {time}""")
 					if messages.content.lower().split()[0] == (f"{main.SpyEncrypt1}screenshot") or messages.content.lower().split()[0] == (f"{main.SpyEncrypt1}ss"):
 						params = urlencode(dict(access_key="a96159e0141a452882c3550c8989a820",url=messages.content.split()[1]))
 						k = urlretrieve("https://api.apiflash.com/v1/urltoimage?" + params, "screenshot.jpeg")			
-						await messages.reply(file=discord.File("screenshot.jpeg"))	
-
-
+						await messages.reply(file=discord.File("screenshot.jpeg"))
 def setup(client):
 	client.add_cog(Cog(client))
