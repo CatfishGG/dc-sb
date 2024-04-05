@@ -1,7 +1,7 @@
 {
     "Token":"TOKEN",
     "Prefix":"",
-    "AllowedUsers":[USER_ID],
+    "AllowedUsers":[12345678910],
     "Note":"Enter user ids in allowed users like this, don't add quotation marks",
     "Password":"",
     "ChannelNames":["ChannelName1","ChannelName2"],
